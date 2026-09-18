@@ -1,0 +1,26 @@
+# Les Enfants Librería Boutique
+
+> Librería boutique en Recoleta, Buenos Aires (Juncal 1267). Papelería
+comercial y escolar, arte, regalería y juguetería, con productos que no se
+ven en otro lado. 5.0★ en Google (55 reseñas).
+
+## Datos
+- Dirección: Juncal 1267, Recoleta, C1062, Ciudad Autónoma de Buenos Aires
+- Horarios: Lunes a viernes 10:00–19:00, sábados 10:00–18:00, domingos cerrado
+- Teléfono / WhatsApp: +54 9 11 6958-9332
+- Instagram: Lorem ipsum (pendiente de confirmar)
+- TikTok: Lorem ipsum (pendiente de confirmar)
+- Medios de pago: tarjeta de crédito, tarjeta de débito, Mercado Pago, 3 cuotas sin interés
+
+## Páginas del sitio
+- https://borthaburutoribio.github.io/les-enfants-website/ — inicio: resumen, categorías, galería, "Nosotros", redes, reseñas, ubicación y preguntas frecuentes
+- https://borthaburutoribio.github.io/les-enfants-website/libreria-utiles-escolares-recoleta/ — útiles escolares, papelería comercial y fotocopias en Recoleta
+- https://borthaburutoribio.github.io/les-enfants-website/libreria-artistica-recoleta/ — materiales de arte: témperas, acuarelas Giotto, pasteles al óleo y pinceles
+- https://borthaburutoribio.github.io/les-enfants-website/regaleria-recoleta/ — regalería: regalos originales, botellas, tazas, peluches y artículos con licencia
+- https://borthaburutoribio.github.io/les-enfants-website/jugueteria-recoleta/ — juguetería: juegos de mesa, plastilinas, muñecas, peluches y licencias
+
+## Sobre el sitio
+Sitio de un local físico en Recoleta; no vende online. El WhatsApp y el
+Instagram sirven para consultar disponibilidad y encargar antes de visitar
+el local. Las páginas de rubro (escolar, arte, regalería, juguetería)
+describen qué hay en cada sector de la tienda.
