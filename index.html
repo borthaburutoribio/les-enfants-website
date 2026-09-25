@@ -13,7 +13,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="styles.css?v=1">
+<link rel="stylesheet" href="styles.css?v=4">
 <meta property="og:type" content="business.business">
 <meta property="og:title" content="Les Enfants Librería Boutique | Librería y juguetería en Recoleta">
 <meta property="og:description" content="Papelería, arte, regalería y juguetería en Juncal 1267, Recoleta. Elegidos uno por uno. 5.0★ en Google.">
@@ -33,6 +33,7 @@
   "image": "https://borthaburutoribio.github.io/les-enfants-website/assets/img/og-image.jpg",
   "url": "https://borthaburutoribio.github.io/les-enfants-website/",
   "telephone": "+5491169589332",
+  "sameAs": ["https://www.instagram.com/libreria_lesenfants/", "https://www.tiktok.com/@libreriaboutique"],
   "priceRange": "$$",
   "address": {
     "@type": "PostalAddress",
@@ -92,7 +93,7 @@
     {
       "@type": "Question",
       "name": "¿Qué tipo de productos puedo encontrar?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Papelería comercial y escolar, arte, regalería, juguetería y artículos con licencias como Hello Kitty, Snoopy, Spiderman y la Selección Argentina." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Papelería comercial y escolar, arte, regalería, juguetería y artículos con licencias como Hello Kitty, Snoopy, Spiderman y la Selección Argentina, entre otras." }
     },
     {
       "@type": "Question",
@@ -102,7 +103,7 @@
     {
       "@type": "Question",
       "name": "¿Cómo me entero de novedades y promociones?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Siguiendo a Les Enfants en Instagram (@lorem_ipsum) y TikTok (@lorem_ipsum), donde compartimos las novedades primero." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Siguiendo a Les Enfants en Instagram (@libreria_lesenfants) y TikTok (@libreriaboutique), donde compartimos las novedades primero." }
     }
   ]
 }
@@ -131,7 +132,7 @@
       <a href="#ubicacion">Ubicación</a>
     </nav>
     <div class="header-ctas">
-      <a href="#" class="btn btn-outline nav-cta" target="_blank" rel="noopener">
+      <a href="https://www.instagram.com/libreria_lesenfants/" class="btn btn-outline nav-cta" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
         Instagram
       </a>
@@ -145,7 +146,10 @@
 
 <main id="main">
 
-  <section class="hero" id="inicio">
+  <section class="hero hero--photo" id="inicio">
+    <div class="hero-photo">
+      <img src="assets/img/interior-libreria-les-enfants-recoleta.webp" srcset="assets/img/interior-libreria-les-enfants-recoleta-800.webp 800w, assets/img/interior-libreria-les-enfants-recoleta.webp 1280w" sizes="100vw" alt="Interior de Les Enfants Librería Boutique en Recoleta: pasillo con estanterías de papelería, útiles y juguetes" width="1280" height="960" fetchpriority="high">
+    </div>
     <div class="container hero-grid">
       <div class="hero-copy">
         <span class="rating-chip"><span aria-hidden="true">★</span> 5.0 · 55 reseñas en Google</span>
@@ -318,23 +322,22 @@
   <section class="nosotros" id="nosotros">
     <div class="container nosotros-grid">
       <div class="nosotros-media">
-        <!-- FOTO PENDIENTE: reemplazar todo este <figure class="ph"> por
-             <img src="assets/img/local.jpg" alt="Fachada de Les Enfants Librería Boutique en Juncal 1267, Recoleta" loading="lazy">
-             (la foto nueva del local, vertical 4:5 de preferencia). El CSS ya le da el mismo tamaño y bordes. -->
-        <figure class="ph ph--tall" data-slot="foto-local" role="img" aria-label="Espacio reservado para la foto del local (Lorem ipsum)">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4Z"/><circle cx="12" cy="13.5" r="3.5"/></svg>
-          <strong>Lorem ipsum</strong>
-          <span>Foto del local · reemplazar por la nueva</span>
+        <figure class="nosotros-photo">
+          <img src="assets/img/fachada-les-enfants-juncal-1267.webp" alt="Fachada de Les Enfants Librería Boutique en Juncal 1267, Recoleta: marquesina roja, vidriera con juguetes y pizarrón en la vereda" width="900" height="1125" loading="lazy" decoding="async">
+          <figcaption>Juncal 1267, Recoleta</figcaption>
         </figure>
       </div>
       <div class="nosotros-content">
         <span class="eyebrow">Sobre nosotros</span>
         <h2>Un proyecto de familia</h2>
         <p class="etimologia"><span class="brand-script">Les enfants</span> — en francés, «los niños».</p>
-        <p>Les Enfants es un emprendimiento familiar, pensado en nuestros hijos —Cristiano, Marcus Alexander y Francesca—. Desde ahí armamos, en el corazón de Recoleta, una librería boutique distinta: papelería, arte y regalos únicos, elegidos con onda y con la idea de que siempre encuentres algo que no viste en ningún otro lado.</p>
-        <p>Cada producto lo elegimos nosotros, uno por uno, con la misma atención que le pondríamos a algo para nuestra propia casa. Atención personalizada, novedades todo el tiempo, y una estética que se nota desde la vidriera hasta el último estante.</p>
+        <!-- A CONFIRMAR con la dueña (texto reescrito 2026-09-25, algunas anécdotas son supuestas):
+             "papá y mamá", la búsqueda de útiles en marzo, que los chicos "prueban" productos, y que se consiguen cosas por encargo. -->
+        <p>Somos papá, mamá y tres chicos: Cristiano, Marcus Alexander y Francesca. La idea de la librería nació un marzo, dando vueltas por medio Buenos Aires con la lista de útiles en la mano, buscando la cartuchera que ellos querían y no la que había.</p>
+        <p>Por eso acá casi todo pasó antes por casa. Si una fibra no pinta bien o una libreta se desarma a la semana, no entra. Si los chicos se pelean por algo, seguro que entra.</p>
+        <p>Si nos venís a ver a Juncal 1267, lo más probable es que te atendamos nosotros. Y si buscás algo que no tenemos, decinos: muchas veces lo conseguimos.</p>
 
-        <p class="sellos-caption">Nos hicimos nuestras propias etiquetas frontales:</p>
+        <p class="sellos-caption">Y sí, en la vidriera pegamos nuestros propios octógonos, como los de los paquetes de galletitas:</p>
         <ul class="sellos-row">
           <li class="sello-octagono"><div class="sello-ring"><div class="sello-inner"><span>EXCESO EN</span><strong>AMABILIDAD</strong></div></div></li>
           <li class="sello-octagono"><div class="sello-ring"><div class="sello-inner"><span>ALTO NIVEL</span><strong>EN CREATIVIDAD</strong></div></div></li>
@@ -361,27 +364,31 @@
         <p>Compartimos lo que va llegando al local: novedades, ofertas y lanzamientos.</p>
       </div>
       <div class="redes-grid">
-        <!-- PENDIENTE: 3 miniaturas de publicaciones o videos reales. Reemplazar cada <figure class="ph"> por
-             <a class="redes-card" href="LINK"><img src="assets/img/redes/1.jpg" alt="..." loading="lazy"></a> -->
-        <figure class="ph ph--reel" data-slot="redes-1" role="img" aria-label="Espacio reservado para una publicación (Lorem ipsum)">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-          <strong>Lorem ipsum</strong>
-          <span>Miniatura de publicación</span>
-        </figure>
-        <figure class="ph ph--reel" data-slot="redes-2" role="img" aria-label="Espacio reservado para una publicación (Lorem ipsum)">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-          <strong>Lorem ipsum</strong>
-          <span>Miniatura de publicación</span>
-        </figure>
-        <figure class="ph ph--reel" data-slot="redes-3" role="img" aria-label="Espacio reservado para una publicación (Lorem ipsum)">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-          <strong>Lorem ipsum</strong>
-          <span>Miniatura de publicación</span>
-        </figure>
+        <a class="redes-card" href="https://www.tiktok.com/@libreriaboutique/video/7496574789100915973" target="_blank" rel="noopener">
+          <span class="redes-thumb">
+            <img src="assets/img/redes/tiktok-librito-stickers-iman.webp" alt="Librito de stickers con imán de carpinchos, en video de TikTok de Les Enfants" width="480" height="853" loading="lazy">
+            <span class="redes-badge">TikTok</span>
+          </span>
+          <span class="redes-caption">Librito con stickers de imán para jugar 😍 una locura</span>
+        </a>
+        <a class="redes-card" href="https://www.instagram.com/reel/DdjJQueRAjL/" target="_blank" rel="noopener">
+          <span class="redes-thumb">
+            <img src="assets/img/redes/instagram-reel-dia-del-estudiante.webp" alt="Mate, apuntes y útiles en el reel del Día del Estudiante de Les Enfants en Instagram" width="361" height="640" loading="lazy">
+            <span class="redes-badge">Instagram</span>
+          </span>
+          <span class="redes-caption">Feliz Día del Estudiante 📚 el reel más visto</span>
+        </a>
+        <a class="redes-card" href="https://www.tiktok.com/@libreriaboutique/video/7505140261693967621" target="_blank" rel="noopener">
+          <span class="redes-thumb">
+            <img src="assets/img/redes/tiktok-dia-de-lluvia-libreria.webp" alt="Interior de la librería Les Enfants en Recoleta, en video de TikTok" width="480" height="853" loading="lazy">
+            <span class="redes-badge">TikTok</span>
+          </span>
+          <span class="redes-caption">Día de lluvia 🙉 ofertas y diversión en la librería</span>
+        </a>
       </div>
       <div class="redes-cta">
-        <a href="#" class="btn btn-primary" target="_blank" rel="noopener">Instagram @lorem_ipsum</a>
-        <a href="#" class="btn btn-outline" target="_blank" rel="noopener">TikTok @lorem_ipsum</a>
+        <a href="https://www.instagram.com/libreria_lesenfants/" class="btn btn-primary" target="_blank" rel="noopener">Instagram @libreria_lesenfants</a>
+        <a href="https://www.tiktok.com/@libreriaboutique" class="btn btn-outline" target="_blank" rel="noopener">TikTok @libreriaboutique</a>
       </div>
     </div>
   </section>
@@ -487,7 +494,7 @@
             <span class="faq-icon"></span>
           </button>
           <div class="faq-answer">
-            <p>Papelería comercial y escolar, arte (témperas, acuarelas, pinceles), regalería, juguetería y esos detalles con licencias — Hello Kitty, Snoopy, Spiderman, la Selección Argentina — que no se ven en otro lado.</p>
+            <p>Papelería comercial y escolar, arte (témperas, acuarelas, pinceles), regalería, juguetería y esos detalles con licencias — Hello Kitty, Snoopy, Spiderman, la Selección Argentina y más — que no se ven en otro lado.</p>
           </div>
         </div>
         <div class="faq-item">
@@ -505,7 +512,7 @@
             <span class="faq-icon"></span>
           </button>
           <div class="faq-answer">
-            <p>Seguinos en Instagram (@lorem_ipsum) y TikTok (@lorem_ipsum) — ahí compartimos las novedades, ofertas y todo lo nuevo que va llegando primero.</p>
+            <p>Seguinos en Instagram (@libreria_lesenfants) y TikTok (@libreriaboutique) — ahí compartimos las novedades, ofertas y todo lo nuevo que va llegando primero.</p>
           </div>
         </div>
       </div>
