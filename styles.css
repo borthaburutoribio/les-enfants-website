@@ -374,6 +374,23 @@ section { padding: 96px 0; }
 }
 .sello-inner span { font-size: 0.38rem; font-weight: 700; line-height: 1.25; white-space: nowrap; }
 .sello-inner strong { font-size: 0.42rem; font-weight: 800; line-height: 1.2; margin-top: 1px; white-space: nowrap; }
+@media (min-width: 981px) {
+  .sellos-row { gap: 14px; margin-bottom: 26px; }
+  .sello-octagono { width: 112px; height: 112px; padding: 4.5px; }
+  .sello-ring { padding: 2.5px; }
+  .sello-inner { padding: 5px; }
+  .sello-inner span { font-size: 0.6rem; }
+  .sello-inner strong { font-size: 0.66rem; margin-top: 2px; }
+  .nosotros-grid { align-items: start; }
+  .nosotros-media { position: sticky; top: 110px; }
+}
+/* Bloque "para vos": lo que el cliente se lleva, en tarjetitas sobre el teal */
+.promesas { list-style: none; padding: 0; margin: 4px 0 26px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.promesas li { background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(230, 207, 138, 0.28); border-radius: var(--r); padding: 16px 18px; }
+.promesas strong { display: block; color: #fff; font-family: var(--font-display); font-size: 1.12rem; font-weight: 600; margin-bottom: 4px; }
+.promesas span { display: block; font-size: 0.94rem; line-height: 1.5; color: rgba(234, 247, 244, 0.8); }
+.nosotros-content h3 { color: var(--gold-light); font-family: var(--font-display); font-style: italic; font-weight: 500; font-size: 1.5rem; margin: 26px 0 14px; }
+@media (max-width: 560px) { .promesas { grid-template-columns: 1fr; } }
 
 .share-row { margin-top: 22px; }
 .share-btn {
